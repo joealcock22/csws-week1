@@ -1,0 +1,10 @@
+locations = ['Milan', 'Dublin', 'Budapest', 'Madrid', 'Amsterdam']
+print(len(locations))
+locations.append("Barcelona")
+print(locations)
+locations.insert(3, "Prague")
+print(locations)
+locations.remove("Dublin")
+x = locations.pop(0)
+print(locations)
+print(x)
